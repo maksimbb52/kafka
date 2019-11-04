@@ -1,0 +1,11 @@
+server:
+  port: 8092
+  servlet:
+    context-path: /consumer
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: statistic

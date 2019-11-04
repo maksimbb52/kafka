@@ -1,0 +1,19 @@
+server:
+  port: 8091
+  servlet:
+    context-path: /producer
+
+spring:
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/finance
+    username: postgres
+    password: postgres
+    driverClassName: org.postgresql.Driver
+    hikari:
+      connection-timeout: 20000
+      maximum-pool-size: 5
