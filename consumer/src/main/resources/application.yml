@@ -9,3 +9,8 @@ spring:
       host: localhost
       port: 27017
       database: statistic
+
+kafka:
+  server: localhost:9092
+  group:
+    id: server.broadcast

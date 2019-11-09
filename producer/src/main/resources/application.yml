@@ -17,3 +17,4 @@ spring:
     hikari:
       connection-timeout: 20000
       maximum-pool-size: 5
+
